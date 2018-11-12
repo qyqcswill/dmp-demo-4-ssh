@@ -58,7 +58,7 @@
  - 添加 apollo 配置类 **ApolloConfig** , **TestJavaConfigBean**
  - 添加 启动参数 **-Denv=dev -Dapp.id=dmp -Dapollo.meta=http://192.168.1.217:8080**
  
- #### 接入是skywalking
+ #### 接入skywalking
  - 下载好skywalking-agent jar 文件
  Linux Tomcat 7, Tomcat 8,修改 tomcat/bin/catalina.sh,在首行加入如下信息:
  ```bash
